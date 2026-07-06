@@ -13,7 +13,7 @@ function Skills() {
 
         <div className="grid md:grid-cols-3 gap-8">
           
-          <div className="p-6 border rounded-xl">
+          <div className="bg-stone-300 p-6 border rounded-xl">
             <h3 className="font-semibold mb-4">UX/UI Design</h3>
             <ul className="space-y-2 text-neutral-600 text-sm">
               <li>Wireframing & Prototyping</li>
@@ -24,7 +24,7 @@ function Skills() {
             </ul>
           </div>
 
-          <div className="p-6 border rounded-xl">
+          <div className="bg-stone-300 p-6 border rounded-xl">
             <h3 className="font-semibold mb-4">Frontend</h3>
             <ul className="space-y-2 text-neutral-600 text-sm">
               <li>React & Next.js</li>
@@ -35,7 +35,7 @@ function Skills() {
             </ul>
           </div>
 
-          <div className="p-6 border rounded-xl">
+          <div className="bg-stone-300 p-6 border rounded-xl">
             <h3 className="font-semibold mb-4">Strategy</h3>
             <ul className="space-y-2 text-neutral-600 text-sm">
               <li>Product Discovery</li>
