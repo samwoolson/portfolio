@@ -21,7 +21,7 @@ Most portfolios ask reviewers to dig. This one is designed around a simple idea:
 | Styling | [Tailwind CSS](https://tailwindcss.com) |
 | Animation | [Framer Motion](https://www.framer.com/motion/) |
 | Form handling | [EmailJS](https://www.emailjs.com/) |
-| Linting | [oxlint](https://oxc.rs) |
+| Linting | [ESlint](https://eslint.org/) |
 | Deployment | [Netlify](https://www.netlify.com) |
  
 **Why these choices:**
@@ -29,7 +29,7 @@ Most portfolios ask reviewers to dig. This one is designed around a simple idea:
 - **Tailwind** for a consistent design system across sections without custom CSS sprawl.
 - **Framer Motion** used sparingly for entrance animations, respecting `prefers-reduced-motion` so the minimalism stays intentional rather than static.
 - **EmailJS** for direct contact-form email delivery without standing up a custom backend.
-- **oxlint** for zero-config, correctness-focused linting well-suited to a project this size — see [oxc.rs](https://oxc.rs) for how it compares to ESLint.
+- **ESlint** to catch common errors and enforce consistent code quality across components.
 ---
  
 ## Project Structure
@@ -97,7 +97,7 @@ Runs the app locally with hot module reload.
 ### Linting
  
 ```bash
-npx oxlint .
+npx eslint .
 ```
  
 ### Build
